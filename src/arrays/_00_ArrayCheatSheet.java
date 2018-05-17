@@ -18,7 +18,7 @@ public class _00_ArrayCheatSheet {
 		
 		//7. use a for loop to make every value of the integer array a random number
 		
-		//8. without printing the entire array, print only the smallest number on the array
+		//8. without printing the entire array, print only the smallest number in the array
 		
 		//9 print the entire array to see if step 8 was correct
 		
