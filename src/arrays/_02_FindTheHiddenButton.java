@@ -1,3 +1,9 @@
+/*****
+ * 
+ * Run the FndHdnBtn.jar to play the finished game
+ * 
+ *****/
+
 package arrays;
 
 import java.awt.event.ActionEvent;
