@@ -9,7 +9,7 @@ void setup() {
 
   //3. initialize your array with the built in width variable
   
-  //4. initialize the int array with random numbers
+  //4. initialize the ints in the array with random numbers
   //   from 0 to the built in height variable
 
   //5. call the noStroke() method
