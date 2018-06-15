@@ -23,21 +23,21 @@ public class _00_ArrayCheatSheet {
 
 		// 6. make an array of 50 integers
 		int[] fifty = new int[50];
-		int smallest = fifty[0];
-		// 7. use a for loop to make every value of the integer array a random number
+		int big = fifty[0];
+		// 7. use a forloop to make every value of the integer array a random number
 		for (int i = 0; i < fifty.length; i++) {
-			fifty[i] = rand.nextInt(47);
+			fifty[i] = rand.nextInt(50);
 		}
 		// 8. without printing the entire array, print only the smallest number in the
 		// array
 		for (int i = 0; i < fifty.length; i++) {
-			if (smallest > fifty[i]) {
-				smallest = fifty[i];
-
+			if (big < fifty[i]) {
+				big = fifty[i];
+				
 			}
-
+		
 		}
-		System.out.println(smallest);
+		System.out.println(big);
 		// 9 print the entire array to see if step 8 was correct
 
 		// 10. print the largest number in the array.
