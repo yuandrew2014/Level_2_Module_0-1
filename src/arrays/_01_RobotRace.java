@@ -30,8 +30,11 @@ for (int i = 0; i < sophiasukz.length; i++) {
 while(true) {
 
 for (int i = 0; i < sophiasukz.length; i++) {
-	
+	sophiasukz[i].setRandomPenColor();
+	sophiasukz[i].setPenWidth(99480);
+	sophiasukz[i].penDown();
 	sophiasukz[i].move(rand.nextInt(300));
+
 	if (sophiasukz[i].getY() < 10) {
 		winner = false;
 		System.out.println("robot" + i + "has won");
@@ -45,7 +48,7 @@ for (int i = 0; i < sophiasukz.length; i++) {
 //done
 	//8. try different races with different amounts of robots.
 
-	//9. make the robots race around a circular track.
-}
+	//9. make the robots race around a circular track.um
+} 
 }
 
